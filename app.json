@@ -1,8 +1,8 @@
 {
-  "name": "𝗜𝗫𝗔𝗟𝗟-Userbot",
-  "description": "-𝗕𝗬 @jPipis on telegram-",
-  "logo": "https://graph.org/file/2aefa880dac16530b31ca-9d35801d8d0ce8dd56.jpg",
-  "keywords": ["telegram", "userbot", "ixall-Userbot", "modular", "python"],
+  "name": "𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+  "description": "-𝗕𝗬 @Axliya on telegram-",
+  "logo": "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg",
+  "keywords": ["telegram", "userbot", "Marvell-Userbot", "modular", "python"],
   "repository": "https://github.com/xallmean/xall",
   "stack": "container",
   "env": {
