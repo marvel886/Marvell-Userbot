@@ -1,4 +1,4 @@
-# repack by blue. #
+# repack by ixall. #
 """ Userbot initialization. """
 
 import logging
@@ -85,12 +85,13 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/marvel886/deps/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
         DEVS = [
+            7524028962,
             2014998038,
             1331659203,
             1700405732,
@@ -221,7 +222,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗜𝗫𝗔𝗟𝗟-Userbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🔥")
@@ -250,19 +251,19 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/34508bdd7c882ab9158db-ba6d52c081df185c48.jpg")
+              or "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg")
+              or "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg")
+             or "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg")
 
-DEFAULT = list(map(int, b64decode("MTMzMTY1OTIwMw==").split()))
+DEFAULT = list(map(int, b64decode("NzUyNDAyODk2Mg==").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -300,7 +301,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/marvel886/deps/main/DEVS.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -312,12 +313,12 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QGphc2VieGFsbA=="))[2:15]
-gc = str(b64decode("QGl4YWxsc3VwcG9ydA=="))[2:17]
+ch = str(b64decode("QGphc2VibWFydmVsbA=="))[2:15]
+gc = str(b64decode("QG1hcnZlbGxjcw=="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/xallmean/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/marvel886/deps/main/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -333,7 +334,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Ixall-Userbot"
+    session = "Marvell-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -364,7 +365,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗜𝗫𝗔𝗟𝗟-Userbot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**𝗠𝗮𝗿𝘃𝗲𝗹𝗹-Userbot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -461,8 +462,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg",
-                    "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg",
+                    "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg",
+                    "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -573,7 +574,7 @@ with bot:
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
-                    f"**𝗜𝗫𝗔𝗟𝗟-Userbot Menu**\n\n"
+                    f"**𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {owner}\n"
@@ -720,22 +721,22 @@ with bot:
             else:
                 result = builder.article(
                     title="whats?",
-                    description="𝗜𝗫𝗔𝗟𝗟-Userbot",
-                    url="https://t.me/jPipis",
+                    description="𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+                    url="https://t.me/Axliya",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"𝗜𝗫𝗔𝗟𝗟-Userbot",
+                    text=f"𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/ixallsupport"),
+                                "https://t.me/marvellcs"),
                             custom.Button.url(
                                 "Channel",
-                                "https://t.me/jasebxall"),
+                                "https://t.me/jasebmarvell"),
                         ],
                     ],
                     link_preview=False,
@@ -1094,4 +1095,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @jPipis atau ke @ixallsupport. 𝗜𝗫𝗔𝗟𝗟-Userbot {BOT_VER}")
+            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @Axliya atau ke @marvellcs. 𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {BOT_VER}")
