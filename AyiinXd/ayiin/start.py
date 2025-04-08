@@ -18,10 +18,10 @@ async def startupmessage():
         if BOTLOG:
             await tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/94c726f014cbc932c6c19-8c08a98cd3922dc12e.jpg",
-                caption="𝗜𝗫𝗔𝗟𝗟-Userbot.\n     **status : Active\n     ketik `.ping` untuk cek bot!**",
-                buttons=[(Button.url("Store", "https://t.me/jasebxall")),
-                         (Button.url("Support", "https://t.me/ixallsupport"))]
+                "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg",
+                caption="𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\n     **status : Active\n     ketik `.ping` untuk cek bot!**",
+                buttons=[(Button.url("Store", "https://t.me/jasebmarvell")),
+                         (Button.url("Support", "https://t.me/marvellcs"))]
             )
     except Exception as e:
         LOGS.error(e)
