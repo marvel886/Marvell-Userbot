@@ -1,4 +1,4 @@
-# repack by blue. #
+# repack by ixall. #
 
 """ Userbot module for System Stats commands """
 
@@ -106,7 +106,7 @@ async def psu(event):
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
     help_string += f"**Pʏ-ɪxᴀʟʟ :** `{py_ver}`\n"
-    help_string += f"**ɪxᴀʟʟ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
+    help_string += f"**ᴠᴇʟʟ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
@@ -183,7 +183,7 @@ async def amireallyalive(alive):
     await alive.edit("⚡️")
     await asyncio.sleep(3)
     output = (
-        f"**here is [𝗜𝗫𝗔𝗟𝗟-Userbot](t.me/jasebxall)**\n\n"
+        f"**here is [𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁](t.me/jasebmarvell)**\n\n"
         f"**{alive_text}**\n\n"
         f"━━━━━━━━━━━━━━\n"
         f"** - Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -193,8 +193,8 @@ async def amireallyalive(alive):
         f"** - Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
         f"** - PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"** - Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
-        f"** - Pʏ-ʙʟᴜᴇ ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"** - ɪxᴀʟʟ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"** - Pʏ-xᴀʟʟ ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
+        f"** - ᴠᴇʟʟ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"** - Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "━━━━━━━━━━━━━━━\n\n"
     )
