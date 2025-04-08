@@ -116,7 +116,7 @@ async def _(pong):
 # .keping & kping Coded by Koala
 
 
-@ayiin_cmd(pattern=r"xall$")
+@ayiin_cmd(pattern=r"vell$")
 async def _(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
@@ -138,14 +138,14 @@ async def _(pong):
     await kping.edit("8===🥹D")
     await kping.edit("8===😬D🔥")
     await kping.edit("8====D🔥🔥")
-    await kping.edit("**IXALLL**")
-    await kping.edit("**DISINI IXALL GANTENG KECE BADAI SLEBEW .....**")
+    await kping.edit("**MARVEL**")
+    await kping.edit("**DISINI MARVEL KECE BADAI SLEBEW .....**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await kping.edit("☠️")
     sleep(3)
     await kping.edit(
-        f"**IXALL TAMVAN!! 💀**\n𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴 : %sms\n𝗨𝗽𝘁𝗶𝗺𝗲 : {uptime}🕛" % (duration)
+        f"**MARVEL BOS!! 💀**\n𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴 : %sms\n𝗨𝗽𝘁𝗶𝗺𝗲 : {uptime}🕛" % (duration)
     )
 
 
@@ -195,7 +195,7 @@ async def _(pong):
 CMD_HELP.update(
     {
         "ping": f"**Plugin : **`ping`\
-        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}lping` ; `{cmd}xping` ; `{cmd}xall`\
+        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}lping` ; `{cmd}xping` ; `{cmd}vell`\
         \n  »  **Kegunaan : **Untuk menunjukkan ping userbot.\
         \n\n  »  **Perintah :** `{cmd}pong`\
         \n  »  **Kegunaan : **Sama seperti perintah ping\
