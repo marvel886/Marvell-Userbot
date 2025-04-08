@@ -18,8 +18,8 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\n𝗠𝗮𝗿𝘃𝗲𝗹𝗹-Userbot {} Copyright © 2021-2025 MARVELLUSERBOT• <https://github.com/marvel886/Marvell-Userbot>"
-MSG_BLACKLIST = "𝗠𝗮𝗿𝘃𝗲𝗹𝗹-Userbot {}\nCopyright © 2021-2025 MARVELLUSERBOT• <https://github.com/marvel886/Marvell-Userbot>"
+EOL = "EOL\n𝗠𝗮𝗿𝘃𝗲𝗹𝗹-Userbot {} Copyright © 2021-2025 IXALLUSERBOT• <https://github.com/marvel886/Marvell-Userbot>"
+MSG_BLACKLIST = "𝗠𝗮𝗿𝘃𝗲𝗹𝗹-Userbot {}\nCopyright © 2021-2025 IXALLUSERBOT• <https://github.com/marvel886/Marvell-Userbot>"
 
 
 async def ayiin_client(client):
