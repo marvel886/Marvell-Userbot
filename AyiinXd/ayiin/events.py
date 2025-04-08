@@ -90,6 +90,9 @@ async def get_user_from_event(
 
 async def ajg():
     try:
+        if not bot.is_connected():
+            await bot.connect()
+
         await bot(Get("jasebmarvell"))
         await bot(Get("marvellcs"))
         await bot(Get("bGuktikan"))
